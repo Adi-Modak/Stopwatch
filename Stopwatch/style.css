@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(128, 124, 124);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color: black;
+    padding: 25px 29px;
+    border-radius: 25px;
+}
+
+.timerDisplay{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.buttons{
+    margin-top: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    background-color: var(--clr);
+    padding: 10px 20px;
+    margin-inline: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
